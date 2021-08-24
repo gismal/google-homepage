@@ -1,0 +1,21 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.logo { 
+    margin-left: 250px;
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+}
+
+.searchbar {
+    margin-left: 250px;
+    width: 508px;
+    height: 26px;
+}
+.search {
+    width: 582;
+    height: 44;
+}
