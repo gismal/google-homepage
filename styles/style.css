@@ -14,7 +14,7 @@ header {
 } 
 
 footer {
-    min-height: 50px;
+    min-height: 40px;
     margin-top: auto;
     background: #f2f2f2;
     height: 40px;
@@ -29,13 +29,38 @@ footer {
 a {
     padding-left: 27px;
 }
+
+input:focus {
+    outline: none;
+}
+
 .logo { 
     padding-top: 109px;
 }
 
+.search {
+    width: 527px;
+    height: 34px;
+    border: none;
+    display: flex;
+    font-size: 18px;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+    padding-top: 10;
+}
+
+.search-div {
+    width: 582px;
+    height: 44px;
+    margin-top: 20px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
 .searchbar {
-    width: 508px;
-    height: 26px;
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
 }
 
 .buttons {
@@ -84,3 +109,19 @@ input[name="lucky-button"] {
     left: 900px;
 }
 
+.symbol {
+    width: 33px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.svg-element {
+    filter: invert(38%) sepia(7%) saturate(367%) hue-rotate(174deg) brightness(98%) contrast(91%);
+}
