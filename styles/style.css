@@ -34,8 +34,39 @@ input:focus {
     outline: none;
 }
 
+li {
+    display: inline;
+}
+
 .logo { 
     padding-top: 109px;
+    object-position: center bottom;
+}
+
+.header {
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+    font-size: 13px;
+}
+
+.header-content {
+    
+    float: right;
+    height: 40px;  
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column; 
+}
+
+.profile-picture {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 10px;
+    top: 10px;
 }
 
 .search {
@@ -124,4 +155,8 @@ svg {
 
 .svg-element {
     filter: invert(38%) sepia(7%) saturate(367%) hue-rotate(174deg) brightness(98%) contrast(91%);
+}
+
+.gb_Ve {
+    filter: invert(39%) sepia(5%) saturate(533%) hue-rotate(173deg) brightness(95%) contrast(89%);
 }
